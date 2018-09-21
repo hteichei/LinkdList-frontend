@@ -11,6 +11,7 @@ export default class Homepage extends Component {
   }
 
   render() {
+    console.log(this.props.jobs);
     const { jobs, searchResults } = this.props;
     let displayJobs;
 
